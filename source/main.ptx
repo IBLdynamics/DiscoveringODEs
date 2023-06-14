@@ -53,7 +53,7 @@
     </frontmatter>
 
     <xi:include href="Introduction.xml" />
-    <xi:include href="Ch1/Ch1.xml" />
+
     <xi:include href="Ch2/Ch2.xml" />
     <xi:include href="Ch3/Ch3.xml" />
     <xi:include href="Ch4/Ch4.xml" />
@@ -61,6 +61,7 @@
     <xi:include href="Ch6/Ch6.xml" />
     <xi:include href="Ch7/Ch7.xml" />
     <xi:include href="Ch8/Ch8.xml" />
+    <xi:include href="Ch9/Ch9.xml" />
 
     <backmatter xml:id="backmatter">
       <title>Backmatter</title>
