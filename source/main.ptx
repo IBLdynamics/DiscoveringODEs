@@ -13,14 +13,18 @@
 
   <book xml:id="my-great-book">
     <title>Discovering Differential Equations Through Experiement and Inquiry</title>
-    <subtitle>An example to get you started</subtitle>
 
     <frontmatter xml:id="frontmatter">
       <titlepage>
         <author>
-          <personname>You</personname>
-          <department>Your department</department>
-          <institution>Your institution</institution>
+          <personname>Jeff Ford</personname>
+          <department>Mathematics, Computer Science, and Statistics</department>
+          <institution>Gustvus Adolphus College</institution>
+        </author>
+        <author>
+          <personname>Tom LoFaro</personname>
+          <department>Mathematics, Computer Science, and Statistics</department>
+          <institution>Gustvus Adolphus College</institution>
         </author>
         <date>
           <today />
@@ -48,15 +52,15 @@
       </colophon>
     </frontmatter>
 
-    <xi:include href="chapters/Introduction.xml" />
-    <xi:include href="chapters/Ch1.xml" />
-    <xi:include href="chapters/Ch2.xml" />
-    <xi:include href="chapters/Ch3.xml" />
-    <xi:include href="chapters/Ch4.xml" />
-    <xi:include href="chapters/Ch5.xml" />
-    <xi:include href="chapters/Ch6.xml" />
-    <xi:include href="chapters/Ch7.xml" />
-    <xi:include href="chapters/Ch8.xml" />
+    <xi:include href="Introduction.xml" />
+    <xi:include href="Ch1/Ch1.xml" />
+    <xi:include href="Ch2/Ch2.xml" />
+    <xi:include href="Ch3/Ch3.xml" />
+    <xi:include href="Ch4/Ch4.xml" />
+    <xi:include href="Ch5/Ch5.xml" />
+    <xi:include href="Ch6/Ch6.xml" />
+    <xi:include href="Ch7/Ch7.xml" />
+    <xi:include href="Ch8/Ch8.xml" />
 
     <backmatter xml:id="backmatter">
       <title>Backmatter</title>
