@@ -1,0 +1,21 @@
+<chapter xml:id="Introduction">
+  <title>Defining a differential equation</title>
+  <introduction>
+    <p> We're all familiar with the idea of an algebraic equation. Something like <m>2x+1 = 5</m> or <m>
+      ax^2 + bx + c = 0</m>. A solution to an algebraic equation is a number, or collection of
+      numbers, that make the statement true. </p>
+    <p> So what if we have an equation like this? <md>
+        <mrow>
+          f(x)\frac{d^2y}{dx^2} + g(x)\frac{dy}{dx} + h(x) =
+          c?
+        </mrow>
+      </md>
+      It's still an equation, so we're still interested in what makes it true. However, the
+      assumption has changed. We don't need a numerical value to make this true, we need some
+      differentiable function <m>y(x)</m>. Conceptually, there isn't a difference, just
+      procedurally. We're still trying to find a way to make a statement containing unknown values
+      true. </p>
+
+  </introduction>
+
+</chapter>

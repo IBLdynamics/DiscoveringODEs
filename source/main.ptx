@@ -11,8 +11,8 @@
     </latex-image-preamble>
   </docinfo>
 
-  <book xml:id="my-great-book">
-    <title>Discovering Differential Equations Through Experiement and Inquiry</title>
+  <book xml:id="DODE">
+    <title>Discovering Ordinary Differential Equations Through Experiement and Inquiry</title>
 
     <frontmatter xml:id="frontmatter">
       <titlepage>
@@ -52,16 +52,15 @@
       </colophon>
     </frontmatter>
 
-    <xi:include href="Introduction.xml" />
-
-    <xi:include href="Ch2/Ch2.xml" />
-    <xi:include href="Ch3/Ch3.xml" />
-    <xi:include href="Ch4/Ch4.xml" />
-    <xi:include href="Ch5/Ch5.xml" />
-    <xi:include href="Ch6/Ch6.xml" />
-    <xi:include href="Ch7/Ch7.xml" />
-    <xi:include href="Ch8/Ch8.xml" />
-    <xi:include href="Ch9/Ch9.xml" />
+    <xi:include href="Ch1/Introduction.ptx" />
+    <xi:include href="Ch2/Ch2.ptx" />
+    <xi:include href="Ch3/Ch3.ptx" />
+    <xi:include href="Ch4/Ch4.ptx" />
+    <xi:include href="Ch5/Ch5.ptx" />
+    <xi:include href="Ch6/Ch6.ptx" />
+    <xi:include href="Ch7/Ch7.ptx" />
+    <xi:include href="Ch8/Ch8.ptx" />
+    <xi:include href="Ch9/Ch9.ptx" />
 
     <backmatter xml:id="backmatter">
       <title>Backmatter</title>
