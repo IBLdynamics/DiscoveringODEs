@@ -1,19 +1,12 @@
-<chapter xml:id="FirstOrderODE">
-  <title>First Order Differential Equations</title>
-  <section xml:id="FO-Linear">
-    <title>Linear Differential Equations</title>
+<chapter xml:id="SecondOrderODE">
+  <title>Second Order Differential Equations</title>
+  <introduction>
+    <p>
+      Hey kids, want to see an ODE?
+    </p>
+    <p>
+      It's not so scary if you poke it with a stick.
+    </p>
+  </introduction>
 
-    <subsection>
-      <title>Explore</title>
-    </subsection>
-    <subsection>
-      <title>Conjecture</title>
-    </subsection>
-    <subsection>
-      <title>Apply</title>
-    </subsection>
-    <subsection>
-      <title>Prove</title>
-    </subsection>
-  </section>
 </chapter>
