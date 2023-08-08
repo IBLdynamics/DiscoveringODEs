@@ -1,5 +1,5 @@
-<section xml:id="VerifyingSolutions">
-  <title>Determining whether a given function satisfies the ODE</title>
+<section xml:id="AutonomousODES">
+  <title>Autonomous ODEs: equilibria and phase lines</title>
   <introduction>
     <p>
       Straight line, the best kind of line

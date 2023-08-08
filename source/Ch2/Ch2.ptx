@@ -1,5 +1,5 @@
-<chapter xml:id="FirstOrderODE" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>First Order Differential Equations</title>
+<chapter xml:id="FirstOrderSolutions" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>What is the solution to an ODE (first order)?</title>
   <introduction>
     <p>
       Hey kids, want to see an ODE? It's only first order, that's no so bad!
@@ -8,4 +8,7 @@
 
   <xi:include href="S21.ptx" />
   <xi:include href="S22.ptx" />
+  <xi:include href="S23.ptx" />
+  <xi:include href="S24.ptx" />
+  <xi:include href="S25.ptx" />
 </chapter>

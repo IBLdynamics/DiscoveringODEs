@@ -1,0 +1,54 @@
+<section xml:id="Autonomous_v_non">
+  <title>Autonomous vs Non-autonomous</title>
+  <introduction>
+    <p>
+      Straight line, the best kind of line
+    </p>
+  </introduction>
+
+  <figure>
+    <caption>The Archimedian Spiral <m>r = a + b\theta</m>, <m>0\leq\theta\leq 8\pi</m></caption>
+    <idx>Archimedian Spiral</idx>
+
+    <interactive xml:id="interactive-archimedian-spiral" platform="jsxgraph" width="80%"
+      aspect="4:3" source="/jslibrary/archimedian.js">
+      <slate xml:id="jsxgraph-archimedian-spiral" surface="jsxboard" aspect="4:3" />
+      <instructions>
+        <p>Drag the sliders to change the parameters <m>a</m> and <m>b</m>. Controls in the
+          lower-right will adjust the viewing window.</p>
+      </instructions>
+    </interactive>
+  </figure>
+
+  <claim xml:id="expl-11">
+    <statement>
+      <p>
+        Test exploration
+      </p>
+    </statement>
+  </claim>
+
+  <conjecture xml:id="conj-11">
+    <statement>
+      <p>
+        Test conjecture
+      </p>
+    </statement>
+  </conjecture>
+
+  <algorithm xml:id="alg-11">
+    <statement>
+      <p>
+        Test application
+      </p>
+    </statement>
+  </algorithm>
+  <fact xml:id="claim-11">
+    <statement>
+      <p>
+        Test proof
+      </p>
+    </statement>
+  </fact>
+
+</section>

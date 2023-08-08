@@ -1,5 +1,5 @@
-<section xml:id="VerifyingSolutions">
-  <title>Determining whether a given function satisfies the ODE</title>
+<section xml:id="SolvingLinear">
+  <title>Solving <m> x' = ax </m></title>
   <introduction>
     <p>
       Straight line, the best kind of line

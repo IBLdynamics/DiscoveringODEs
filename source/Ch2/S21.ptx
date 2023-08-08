@@ -1,8 +1,10 @@
-<section xml:id="FirstOrderLinear">
-  <title>First Order Linear ODEs</title>
-  <p>
-    Straight line, the best kind of line
-  </p>
+<section xml:id="GeometricDefinitions">
+  <title>Geometric definition and relation to slope field</title>
+  <introduction>
+    <p>
+      Straight line, the best kind of line
+    </p>
+  </introduction>
   <subsection>
     <title>Explore</title>
   </subsection>

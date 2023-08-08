@@ -1,5 +1,5 @@
-<chapter xml:id="Introduction">
-  <title>Defining a differential equation</title>
+<chapter xml:id="Introduction" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>What is an Ordinary Differential Equation (first order)?</title>
   <introduction>
     <p> We're all familiar with the idea of an algebraic equation. Something like <m>2x+1 = 5</m> or <m>
       ax^2 + bx + c = 0</m>. A solution to an algebraic equation is a number, or collection of
@@ -17,5 +17,7 @@
       true. </p>
 
   </introduction>
-
+  <xi:include href="S11.ptx" />
+  <xi:include href="S12.ptx" />
+  <xi:include href="S13.ptx" />
 </chapter>

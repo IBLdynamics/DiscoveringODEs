@@ -3,6 +3,9 @@
 <pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
 
   <docinfo>
+    <rename element="algorithm">Apply</rename>
+    <rename element="claim">Explore</rename>
+    <rename element="fact">Prove</rename>
     <macros>
       \newcommand{\R}{\mathbb R}
     </macros>
@@ -17,15 +20,16 @@
     <frontmatter xml:id="frontmatter">
       <titlepage>
         <author>
-          <personname>Jeff Ford</personname>
-          <department>Mathematics, Computer Science, and Statistics</department>
-          <institution>Gustvus Adolphus College</institution>
-        </author>
-        <author>
           <personname>Tom LoFaro</personname>
           <department>Mathematics, Computer Science, and Statistics</department>
           <institution>Gustvus Adolphus College</institution>
         </author>
+        <author>
+          <personname>Jeff Ford</personname>
+          <department>Mathematics, Computer Science, and Statistics</department>
+          <institution>Gustvus Adolphus College</institution>
+        </author>
+
         <date>
           <today />
         </date>
