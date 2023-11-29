@@ -20,13 +20,13 @@
     </interactive>
   </figure>
 
-  <claim xml:id="expl-11">
+  <exploration xml:id="expl-11">
     <statement>
       <p>
         Test exploration
       </p>
     </statement>
-  </claim>
+  </exploration>
 
   <conjecture xml:id="conj-11">
     <statement>
@@ -36,14 +36,14 @@
     </statement>
   </conjecture>
 
-  <algorithm xml:id="alg-11">
+  <algorithm xml:id="app-11">
     <statement>
       <p>
         Test application
       </p>
     </statement>
   </algorithm>
-  <fact xml:id="claim-11">
+  <fact xml:id="pf-11">
     <statement>
       <p>
         Test proof

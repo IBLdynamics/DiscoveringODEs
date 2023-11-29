@@ -3,7 +3,19 @@
   <introduction>
     Whatever
   </introduction>
+  <figure>
+    <caption>Second order ODE</caption>
+    <idx>Archimedian Spiral</idx>
 
+    <interactive xml:id="interactive-2ndorder-ode" platform="jsxgraph" width="80%"
+      aspect="4:3" source="/jslibrary/2ndOrder.js">
+      <slate xml:id="jsxgraph-2ndorder-ode" surface="jsxboard" aspect="4:3" />
+      <instructions>
+        <p>Drag the sliders to change the parameters <m>a</m> and <m>b</m>. Controls in the
+          lower-right will adjust the viewing window.</p>
+      </instructions>
+    </interactive>
+  </figure>
 
   <subsection>
     <title>Explore</title>

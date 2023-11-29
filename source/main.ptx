@@ -3,9 +3,8 @@
 <pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
 
   <docinfo>
-    <rename element="algorithm">Apply</rename>
-    <rename element="claim">Explore</rename>
-    <rename element="fact">Prove</rename>
+    <rename element="algorithm">Application</rename>
+    <rename element="fact">Proof</rename>
     <macros>
       \newcommand{\R}{\mathbb R}
     </macros>
