@@ -142,16 +142,16 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.1",
   "title": "Second order ODEs",
-  "body": " Second order ODEs   Straight line, the best kind of line    Graphing a second order ODE  Graphing a 2nd order ode      Explore    Conjecture    Apply    Prove   "
+  "body": " Second order ODEs   Straight line, the best kind of line    Explore   Graphing a second order ODE  Graphing a 2nd order ode      Conjecture    Apply    Prove   "
 },
 {
-  "id": "SecondOrderExamples-3",
+  "id": "SecondOrderExamples-3-2",
   "level": "2",
-  "url": "SecondOrderExamples.html#SecondOrderExamples-3",
+  "url": "SecondOrderExamples.html#SecondOrderExamples-3-2",
   "type": "Figure",
   "number": "3.1.1",
   "title": "",
-  "body": " Graphing a second order ODE  Graphing a 2nd order ode    "
+  "body": " Graphing a second order ODE  Graphing a 2nd order ode   "
 },
 {
   "id": "Laplace",
@@ -169,7 +169,16 @@ var ptx_lunr_docs = [
   "type": "Chapter",
   "number": "5",
   "title": "Systems of ODEs",
-  "body": " Systems of ODEs   Hey kids, want to see an ODE?  It's not so scary if you poke it with a stick.   "
+  "body": " Systems of ODEs   Lotka-Voltera  It's not so scary if you poke it with a stick.    Plotting a system as parameters change    "
+},
+{
+  "id": "SystemsOfODEs-3",
+  "level": "2",
+  "url": "SystemsOfODEs.html#SystemsOfODEs-3",
+  "type": "Figure",
+  "number": "5.0.1",
+  "title": "",
+  "body": " Plotting a system as parameters change   "
 },
 {
   "id": "SeriesSolutions",
