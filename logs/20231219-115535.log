@@ -1,0 +1,6 @@
+INFO    : PreTeXt project found in `/Users/jford/Desktop/DODE/DiscoveringODEs`.
+CRITICAL: Opening and ending tag mismatch: interactive line 12 and figure, line 23, column 12
+INFO    : ------------------------
+CRITICAL: Failed to build.  Exiting...
+INFO    : While running pretext, the following errors occurred:
+

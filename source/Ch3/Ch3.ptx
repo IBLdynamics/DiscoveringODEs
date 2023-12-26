@@ -1,4 +1,4 @@
-<chapter xml:id="SecondOrderODE">
+<chapter xml:id="SecondOrderODE" xmlns:xi="http://www.w3.org/2001/XInclude">>
   <title>Second Order Differential Equations</title>
   <introduction>
     <p>
@@ -9,4 +9,5 @@
     </p>
   </introduction>
 
+<xi:include href="S31.ptx" />
 </chapter>

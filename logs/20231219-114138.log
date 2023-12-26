@@ -1,0 +1,8 @@
+INFO    : PreTeXt project found in `/Users/jford/Desktop/DODE/DiscoveringODEs`.
+WARNING : Using CLI version 2.3.3 but project's `requirements.txt`
+WARNING : is configured to use 1.7.5. Consider either installing
+WARNING : CLI version 1.7.5 or running `pretext init --refresh`
+WARNING : to update `requirements.txt` to match 2.3.3.
+ERROR   : psutil.ZombieProcess process still exists but it's a zombie (pid=80708)
+INFO    : While running pretext, the following errors occurred:
+

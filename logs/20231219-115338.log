@@ -1,0 +1,4 @@
+INFO    : PreTeXt project found in `/Users/jford/Desktop/DODE/DiscoveringODEs`.
+ERROR   : psutil.ZombieProcess process still exists but it's a zombie (pid=80708)
+INFO    : While running pretext, the following errors occurred:
+

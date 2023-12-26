@@ -1,0 +1,19 @@
+INFO    : PreTeXt project found in `/Users/jford/Desktop/DODE/DiscoveringODEs`.
+INFO    : Preparing to build into /Users/jford/Desktop/DODE/DiscoveringODEs/output/web.
+INFO    : discovering source file's directory name: /Users/jford/Desktop/DODE/DiscoveringODEs/source
+INFO    : verifying and expanding input directory: /Users/jford/Desktop/DODE/DiscoveringODEs/source/../generated-assets
+INFO    : input directory expanded to absolute path: /Users/jford/Desktop/DODE/DiscoveringODEs/generated-assets
+INFO    : verifying and expanding input directory: /Users/jford/Desktop/DODE/DiscoveringODEs/source/../assets
+INFO    : input directory expanded to absolute path: /Users/jford/Desktop/DODE/DiscoveringODEs/assets
+INFO    : Runestone Services (via PreTeXt repository): version 7.1.2
+INFO    : Runestone Services (using newer, via online CDN query): version 7.2.8
+INFO    : converting /Users/jford/Desktop/DODE/DiscoveringODEs/source/main.ptx to HTML in /var/folders/8j/_yndq5ld6v17yd413hd922tc0000gp/T/tmp41rrfe1h
+INFO    : XSL conversion of /Users/jford/Desktop/DODE/DiscoveringODEs/source/main.ptx by /Users/jford/.ptx/xsl/pretext-html.xsl
+INFO    : comprehensive messages, warnings, and errors:
+INFO    :     * PTX:DEPRECATE: (2023-08-08) a "website" element with "address" and "name" children has changed.  Continue to use the "website" element as before, but replace the "address" and "name" children with a single "url" element, which is more flexible and reliable.  We will try to honor your intent, but you may prefer your own adjustments. (1 time)
+INFO    :     *              located within: "frontmatter" (xml:id)
+INFO    :     * --------------
+INFO    : successful application of /Users/jford/.ptx/xsl/pretext-html.xsl
+INFO    : 
+Success! Run `pretext view` to see the results.
+
