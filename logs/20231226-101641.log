@@ -1,0 +1,11 @@
+INFO    : PreTeXt project found in `/Users/jford/Desktop/DODE/DiscoveringODEs`.
+INFO    : Since no target was supplied, we will use "web".
+
+INFO    : Staging latest build located in `/Users/jford/Desktop/DODE/DiscoveringODEs/output/web` at `/Users/jford/Desktop/DODE/DiscoveringODEs/output/stage`.
+INFO    : 
+INFO    : Deployment is now staged at `/Users/jford/Desktop/DODE/DiscoveringODEs/output/stage`.
+INFO    : Preparing to deploy from active `main` git branch.
+INFO    : 
+INFO    : Changes to project source since last commit detected.
+INFO    : Add/committing these changes to local Git repository.
+INFO    : 
