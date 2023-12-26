@@ -2,11 +2,25 @@
   <title>Systems of ODEs</title>
   <introduction>
     <p>
-      Hey kids, want to see an ODE?
+      Lotka-Voltera
     </p>
     <p>
       It's not so scary if you poke it with a stick.
     </p>
   </introduction>
+
+  <figure>
+    <caption>Plotting a system as parameters change</caption>
+    <idx>Lotka-Voltera</idx>
+
+    <interactive xml:id="LV-system" platform="jsxgraph" width="80%"
+      aspect="4:3" source="/jslibrary/LV.js">
+      <slate xml:id="LV-system-sliders" surface="jsxboard" aspect="4:3" />
+      <!--<slate xml:id="LV-system-graphs" surface="jsxboard" aspect="4:3" />-->
+      <instructions>
+        <p>Change the value of <m>t</m> to see the interaction between the function.</p>
+      </instructions>
+    </interactive>
+  </figure>
 
 </chapter>

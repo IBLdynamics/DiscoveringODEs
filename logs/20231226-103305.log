@@ -1,0 +1,11 @@
+INFO    : PreTeXt project found in `/Users/jford/Desktop/DODE/DiscoveringODEs`.
+ERROR   : XInclude Error caused build to fail:
+ERROR   : /Users/jford/Desktop/DODE/DiscoveringODEs/source/Ch5/Ch5.ptx:24:12:FATAL:PARSER:ERR_TAG_NAME_MISMATCH: Opening and ending tag mismatch: idx line 14 and figure
+/Users/jford/Desktop/DODE/DiscoveringODEs/source/Ch5/Ch5.ptx:26:11:FATAL:PARSER:ERR_TAG_NAME_MISMATCH: Opening and ending tag mismatch: figure line 12 and chapter
+/Users/jford/Desktop/DODE/DiscoveringODEs/source/Ch5/Ch5.ptx:26:11:FATAL:PARSER:ERR_TAG_NOT_FINISHED: Premature end of data in tag chapter line 1
+/Users/jford/Desktop/DODE/DiscoveringODEs/source/main.ptx:62:0:ERROR:XINCLUDE:XINCLUDE_NO_FALLBACK: could not load /Users/jford/Desktop/DODE/DiscoveringODEs/source/Ch5/Ch5.ptx, and no fallback was found
+CRITICAL: XML syntax for source file is invalid
+INFO    : ------------------------
+CRITICAL: Failed to build.  Exiting...
+INFO    : While running pretext, the following errors occurred:
+
