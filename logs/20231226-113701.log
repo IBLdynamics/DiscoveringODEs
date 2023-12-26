@@ -1,0 +1,14 @@
+INFO    : PreTeXt project found in `/Users/jford/Desktop/DODE/DiscoveringODEs`.
+ERROR   : XInclude Error caused build to fail:
+ERROR   : /Users/jford/Desktop/DODE/DiscoveringODEs/source/Ch5/Ch5.ptx:15:46:FATAL:PARSER:ERR_NAME_REQUIRED: error parsing attribute name
+/Users/jford/Desktop/DODE/DiscoveringODEs/source/Ch5/Ch5.ptx:15:46:FATAL:PARSER:ERR_SPACE_REQUIRED: attributes construct error
+/Users/jford/Desktop/DODE/DiscoveringODEs/source/Ch5/Ch5.ptx:15:46:FATAL:PARSER:ERR_GT_REQUIRED: Couldn't find end of Start Tag interactive line 14
+/Users/jford/Desktop/DODE/DiscoveringODEs/source/Ch5/Ch5.ptx:21:19:FATAL:PARSER:ERR_TAG_NAME_MISMATCH: Opening and ending tag mismatch: figure line 12 and interactive
+/Users/jford/Desktop/DODE/DiscoveringODEs/source/Ch5/Ch5.ptx:22:12:FATAL:PARSER:ERR_TAG_NAME_MISMATCH: Opening and ending tag mismatch: chapter line 1 and figure
+/Users/jford/Desktop/DODE/DiscoveringODEs/source/Ch5/Ch5.ptx:24:1:FATAL:PARSER:ERR_DOCUMENT_END: Extra content at the end of the document
+/Users/jford/Desktop/DODE/DiscoveringODEs/source/main.ptx:62:0:ERROR:XINCLUDE:XINCLUDE_NO_FALLBACK: could not load /Users/jford/Desktop/DODE/DiscoveringODEs/source/Ch5/Ch5.ptx, and no fallback was found
+CRITICAL: XML syntax for source file is invalid
+INFO    : ------------------------
+CRITICAL: Failed to build.  Exiting...
+INFO    : While running pretext, the following errors occurred:
+

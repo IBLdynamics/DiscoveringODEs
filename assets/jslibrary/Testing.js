@@ -35,8 +35,8 @@ function ode() {
 }
 /*------------------------------------------------------------------------------------------------------ create_sim ---*/
 brd = JXG.JSXGraph.initBoard('jsxgraph-2ndorder-ode', { boundingbox: [xMin, yMax, xMax, yMin], showCopyright: false, axis: true });
-//brd2 = JXG.JSXGraph.initBoard('box2', { boundingbox: [xMin, yMax, xMax, yMin], showCopyright: false, axis: true });
-//brd.addChild(brd2);
+brd2 = JXG.JSXGraph.initBoard('box2', { boundingbox: [xMin, yMax, xMax, yMin], showCopyright: false, axis: true });
+brd.addChild(brd2);
 sdN = brd.create('slider', [[-7, -8.5], [7, -8.5], [-15, 5, 15]], { name: 't' });
 
 P1 = brd.create('point', [x0, y01], { color: 'red', name: '(x_0, y_0)' });
