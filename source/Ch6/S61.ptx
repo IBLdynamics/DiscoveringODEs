@@ -1,12 +1,25 @@
-<section xml:id="Motivation">
+<section xml:id="Springs" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Springs</title>
   <introduction>
     <p>
       Straight line, the best kind of line
     </p>
   </introduction>
-
-  <xi:include href="SS611.ptx" />
+  
+    <subsection>
+      <title>Explore</title>
+ 
+    </subsection>
+    <subsection>
+      <title>Conjecture</title>
+    </subsection>
+    <subsection>
+      <title>Apply</title>
+    </subsection>
+    <subsection>
+      <title>Prove</title>
+    </subsection>
+  </section>
 
 
 </section>

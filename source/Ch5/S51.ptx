@@ -1,4 +1,4 @@
-<section xml:id="Motivation">
+<section xml:id="SecondOrderMotivation"  xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Motivation for the methods</title>
   <introduction>
     <p>
@@ -10,17 +10,6 @@
 
   <subsection>
     <title>Explore</title>
-    <figure>
-      <caption>Graphing a second order ODE</caption>
-      <idx>Graphing a 2nd order ode</idx>  
-      <interactive xml:id="interactive-2nd-order" platform="jsxgraph" width="80%"
-        aspect="4:3" source="/jslibrary/Testing.js">
-        <slate xml:id="jsxgraph-2ndorder-ode" surface="jsxboard" aspect="4:3" />
-        <instructions>
-          <p>Change the value of <m>t</m> to see the interaction between the function.</p>
-        </instructions>
-      </interactive>
-    </figure>
   </subsection>
   <subsection>
     <title>Conjecture</title>

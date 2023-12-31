@@ -1,4 +1,4 @@
-<chapter xml:id="2ndOrder">
+<chapter xml:id="SecondOrder" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Second Order ODEs</title>
   <introduction>
     <p>
@@ -10,10 +10,6 @@
   </introduction>
 
   <xi:include href="S51.ptx" />
-  <xi:include href="S52.ptx" />
-  <xi:include href="S53.ptx" />
-  <xi:include href="S54.ptx" />
-  <xi:include href="S55.ptx" />
-  <xi:include href="S56.ptx" />
+
 
 </chapter>

@@ -1,4 +1,4 @@
-<chapter xml:id="Modelling">
+<chapter xml:id="Modelling" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Modelling with Ordinary Differential Equations</title>
   <introduction>
     <p>

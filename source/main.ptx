@@ -62,8 +62,6 @@
     <xi:include href="Ch5/Ch5.ptx" />
     <xi:include href="Ch6/Ch6.ptx" />
     <xi:include href="Ch7/Ch7.ptx" />
-    <xi:include href="Ch8/Ch8.ptx" />
-    <xi:include href="Ch9/Ch9.ptx" />
 
     <backmatter xml:id="backmatter">
       <title>Backmatter</title>
