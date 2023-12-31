@@ -1,5 +1,5 @@
 <section xml:id="VerifyingSolutions">
-  <title>Determining whether a given function satisfies the ODE</title>
+  <title>Is it a solution?</title>
   <introduction>
     <p>
       Straight line, the best kind of line

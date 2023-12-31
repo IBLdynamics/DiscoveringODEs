@@ -1,5 +1,5 @@
-<chapter xml:id="SeriesSolutions">
-  <title>Series Solutions to ODEs</title>
+<chapter xml:id="Applications2ndOrder">
+  <title>Applications of Second Order Equations</title>
   <introduction>
     <p>
       Hey kids, want to see an ODE?
@@ -9,4 +9,5 @@
     </p>
   </introduction>
 
+  <xi:include href="S61.ptx" />
 </chapter>

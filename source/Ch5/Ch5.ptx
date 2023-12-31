@@ -1,5 +1,5 @@
-<chapter xml:id="SystemsOfODEs">
-  <title>Systems of ODEs</title>
+<chapter xml:id="2ndOrder">
+  <title>Second Order ODEs</title>
   <introduction>
     <p>
       Lotka-Voltera
@@ -9,16 +9,11 @@
     </p>
   </introduction>
 
-  <figure>
-    <caption>Plotting a system as parameters change</caption>
-    <interactive xml:id="LV-system" platform="jsxgraph" width="80%"
-      source="/jslibrary/LV-slide.js">
-      <slate xml:id="LV-system-sliders" surface="jsxboard" aspect="4:1" />
-      <slate xml:id="LV-system-graphs" surface="jsxboard" aspect="4:3" />
-      <instructions>
-        <p>Change the slides to move the graphs.</p>
-      </instructions>
-    </interactive>
-  </figure>  
+  <xi:include href="S51.ptx" />
+  <xi:include href="S52.ptx" />
+  <xi:include href="S53.ptx" />
+  <xi:include href="S54.ptx" />
+  <xi:include href="S55.ptx" />
+  <xi:include href="S56.ptx" />
 
 </chapter>

@@ -1,5 +1,5 @@
-<chapter xml:id="SecondOrderODE" xmlns:xi="http://www.w3.org/2001/XInclude">>
-  <title>Second Order Differential Equations</title>
+<chapter xml:id="FirstOrderMethods" xmlns:xi="http://www.w3.org/2001/XInclude">>
+  <title>Solving methods for Firat Order Differential Equations</title>
   <introduction>
     <p>
       Hey kids, want to see an ODE?
@@ -10,4 +10,7 @@
   </introduction>
 
 <xi:include href="S31.ptx" />
+<xi:include href="S32.ptx" />
+<xi:include href="S33.ptx" />
+
 </chapter>

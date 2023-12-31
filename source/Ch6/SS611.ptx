@@ -1,5 +1,5 @@
-<section xml:id="SeparationOfVariables">
-  <title>Separation of Variables</title>
+<subsection xml:id="Motivation">
+  <title>Springs</title>
   <introduction>
     <p>
       Straight line, the best kind of line
@@ -8,7 +8,7 @@
 
  
 
-  <subsection>
+  <subsubsection>
     <title>Explore</title>
     <figure>
       <caption>Graphing a second order ODE</caption>
@@ -21,14 +21,14 @@
         </instructions>
       </interactive>
     </figure>
-  </subsection>
-  <subsection>
+  </subsubsection>
+  <subsubsection>
     <title>Conjecture</title>
-  </subsection>
-  <subsection>
+  </subsubsection>
+  <subsubsection>
     <title>Apply</title>
-  </subsection>
-  <subsection>
+  </subsubsection>
+  <subsubsection>
     <title>Prove</title>
-  </subsection>
-</section>
+  </subsubsection>
+</subsection>
