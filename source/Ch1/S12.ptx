@@ -7,14 +7,15 @@
 
   <subsection xml:id="def-ODE">
     <title>Explore</title>
-    <p> A <term >differential equation</term><idx>differential equation</idx> is simply an equation that describes a relationship between some function and its derivatives.  We will often use the variable <m>y</m> to denote the function (or dependent variable), the variable <m>t</m> to denote the input (or independent variable), and primes to denote derivatives.  Here are a few examples to give you the idea.
-<ol>
+    <p> A <term >differential equation</term><idx>differential equation</idx> is simply an equation that describes a relationship between some function and its derivatives.  We will often use the variable <m>y</m> to denote the function (or dependent variable), the variable <m>t</m> to denote the input (or independent variable), and primes to denote derivatives.  Here are a few examples to give you the idea.</p>
+<example xml:id="firstODEexample"><p>
+  <ol>
 <li><m> y' = a y (1-y)</m> </li>
   <li><m> y' = -9.8 t + 12</m> </li>
     <li><m> y''+\omega^2 y = 0</m> </li>
       <li><m> y''+ ky' + \omega^2 y = \sin t</m> </li>
 </ol> </p>
-
+</example>
 <p>
   The goal of this book is to provide you with tools for 
 <ul>
@@ -36,7 +37,32 @@
   </statement>
 </definition>
 
-
+<exploration>
+  <statement>
+    <p>
+      What is the order of each of the differential equations in <xref ref="firstODEexample">Example.</xref>?
+    </p>
+    </statement>
+</exploration>
+<definition xml:id="def-autonomous"><idx><h>differential equation</h><h>autonomous</h></idx>
+  <statement>
+    <p>
+      A differential equation is <term>autonomous</term> if it does not explicitly depend on the independent variable (generally <m>t</m> for us).  Otherwise, the differential equation is said to be <term>non-autonomous</term>.
+    </p>
+  </statement>
+</definition>
+<exploration>
+  <statement>
+    <p>
+     Which of the differential equations in <xref ref="firstODEexample"/> are autonomous?
+    </p>
+    </statement>
+</exploration>
+<p> There is one final term to define for now: <term> ordinary</term>.  </p>
+  <definition><idx><h>differential equation</h><h>ordinary</h></idx>
+    A differential equation is <term>ordinary</term> if it only contains derivatives with respect to a single independent variable.
+    </definition> 
+    <p>  Ordinary differential equations are referred to as ODEs for short.  Differential equations that use partial derivatives of multiple variables are called <em>partial differential equations</em> and while these are very common (especially in physical applications) they are not the primary focus of this book. </p>
   </subsection>
  <!-- <subsection>
     <title>Conjecture</title>

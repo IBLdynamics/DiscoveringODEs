@@ -1,23 +1,71 @@
 <section xml:id="VisualizingODEs">
   <title>Visualizing Ordinary Differential Equations</title>
   <introduction>
-    Whatever
+    <p>The place to start studying ordinary differential equations is to develop a way to visualize the equation.  This process isn't new to you, before you learned doing algebra, you learned how to visualize graphs.  Before you stared doing derivatives, you learned how to visualize tangent lines.  The same process is important here.  This section will help you visualize first-order differential equations partly because it helps you understand what comes later.  But we also hope that you will see that using these methods are useful in their own right and much understanding and interpretation can be gained using some pretty basic ideas.</p>
   </introduction>
-  <figure>
-    <caption>Exploring a slope field</caption>
-    <idx>Exploring a slope field</idx>
+  
 
-    <interactive xml:id="interactive-slope_field" platform="jsxgraph" width="80%"
-      aspect="4:3" source="/jslibrary/Slopefield.js">
-      <slate xml:id="jsxgraph-slope_field" surface="jsxboard" aspect="4:3" />
-      <instructions>
-        <p>Drag the initial condition to watch the arrow move in relation to the slope field.</p>
-      </instructions>
-    </interactive>
-  </figure>
+<p> The techniques you will explore here apply to differential equations of the form
+<men xml:id="eqODE1">
+\ydot = f(y,t)</men>
+
+
+where the function <m>f</m> is assumed to be differentiable in both <m>y</m>  and <m>t</m> .  Note that if the differential equation is autonomous then <m>f(y,t) = f(y).</m>  </p>
 
   <subsection>
     <title>Explore</title>
+    <exploration xml:id="derivmeaning">
+      <statement>
+        <p>
+          List every interpretation of the derivative <m>\ydot</m> that you can think of.
+        </p>
+      </statement>
+    </exploration>
+
+    <exploration><idx>slope field</idx>
+      <statement>
+        <p>
+          Certainly, one of your answers to <xref ref="derivmeaning"/> was that a derivative is a <em> slope</em>.   Use this to explain why equation <xref ref="eqODE1"/> assigns a slope to each point in the <m>(t,y)</m> plane. Explain how you might use this to draw a picture encapsulating this information (called a <term>slope field</term>) for a given function <m>f(y,x).</m>
+        </p>
+      </statement>
+    </exploration>
+
+    <exploration>
+      <statement>
+        <p>
+          Sketch slope fields for <m>\ydot = y</m> for <m>-2 \leq t \leq 2, \, -2 \leq y \leq 2.</m>
+        </p>
+      </statement>
+    </exploration>
+
+
+    <exploration>
+      <statement>
+        <p>
+          Sketch slope fields for <m>\ydot = t</m> for <m>-2 \leq t \leq 2, \, -2 \leq y \leq 2.</m>
+        </p>
+      </statement>
+    </exploration>
+
+    <exploration xml:id="slopefield_matching_equations">
+      <statement>
+        <p>
+          Match the following slope fields in <xref ref="slopefield_matching1"/> to the corresponding differential equation. 
+          
+<ol>
+<li><m>\ydot = t y</m></li>
+  <li><m>\ydot = y(1-y)</m></li>
+    <li><m>\ydot = 1-y^2</m></li>
+      <li><m>\ydot = \sin(t) y</m></li>
+      </ol>
+      
+          </p>
+          </statement>
+          </exploration>
+          <figure xml:id="slopefield_matching1">
+            <image source="images/slopefield_matching1.png" width="50%"/>
+            <shortdescription> 4 slope fields, to be matched with the differential equations in <xref ref="slopefield_matching_equations"/>. </shortdescription>
+            </figure>
   </subsection>
   <subsection>
     <title>Conjecture</title>
