@@ -8,7 +8,7 @@
 <html lang="en-US" dir="ltr">
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Discovering Ordinary Differential Equations Through Experiement and Inquiry</title>
+<title>Visualizing Ordinary Differential Equations</title>
 <meta name="Keywords" content="Authored in PreTeXt">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta property="og:type" content="book">
@@ -107,7 +107,7 @@ window.MathJax = {
 <ol id="searchresults" class="searchresults"></ol>
 </div>
 </div>
-<span class="nav-other-controls"></span><span class="treebuttons"><span class="previous-button button disabled"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></span><span class="up-button button disabled"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></span><a class="next-button button" href="frontmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(      \newcommand{\xdot}{\dot{x}}
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="TerminologyODEs.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="Introduction.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="backmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(      \newcommand{\xdot}{\dot{x}}
 \newcommand{\ydot}{\dot{y}}
 \newcommand{\zdot}{\dot{z}}
 
@@ -123,15 +123,15 @@ window.MathJax = {
 <div class="ptx-page">
 <div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
 <li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
-<li class="toc-item toc-chapter">
+<li class="toc-item toc-chapter contains-active">
 <div class="toc-title-box"><a href="Introduction.html" class="internal"><span class="codenumber">1</span> <span class="title">What is a Differential Equation?</span></a></div>
-<ul class="structural toc-item-list">
+<ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="WhyODEs.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Why Study Differential Equations?</span></a></div></li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="TerminologyODEs.html" class="internal"><span class="codenumber">1.2</span> <span class="title">The Terminology of Differential Equations</span></a></div>
 <ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="TerminologyODEs.html#def-ODE" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Explore</span></a></div></li></ul>
 </li>
-<li class="toc-item toc-section">
+<li class="toc-item toc-section active">
 <div class="toc-title-box"><a href="VisualizingODEs.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Visualizing Ordinary Differential Equations</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="VisualizingODEs.html#VisualizingODEs-4" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Explore</span></a></div></li>
@@ -150,13 +150,57 @@ window.MathJax = {
 </ul>
 </li>
 </ul></nav></div>
-<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="book" id="DODE"><nav class="summary-links"><ul>
-<li><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></li>
-<li><a href="Introduction.html" class="internal"><span class="codenumber">1</span> <span class="title">What is a Differential Equation?</span></a></li>
-<li><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></li>
-</ul></nav></section></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="VisualizingODEs"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">1.3</span><span class="space"> </span><span class="title">Visualizing Ordinary Differential Equations</span>
+</h2>
+<section class="introduction" id="VisualizingODEs-2"><div class="para" id="VisualizingODEs-2-1">The place to start studying ordinary differential equations is to develop a way to visualize the equation.  This process isn’t new to you, before you learned doing algebra, you learned how to visualize graphs.  Before you stared doing derivatives, you learned how to visualize tangent lines.  The same process is important here.  This section will help you visualize first-order differential equations partly because it helps you understand what comes later.  But we also hope that you will see that using these methods are useful in their own right and much understanding and interpretation can be gained using some pretty basic ideas.</div></section><div class="para logical" id="VisualizingODEs-3">
+<div class="para">The techniques you will explore here apply to differential equations of the form</div>
+<div class="displaymath process-math" id="eqODE1">
+\begin{equation}
+\ydot = f(y,t)\tag{1.3.1}
+\end{equation}
+</div>
+<div class="para">where the function <span class="process-math">\(f\)</span> is assumed to be differentiable in both <span class="process-math">\(y\)</span>  and <span class="process-math">\(t\)</span> .  Note that if the differential equation is autonomous then <span class="process-math">\(f(y,t) = f(y).\)</span>
+</div>
+</div>
+<section class="subsection" id="VisualizingODEs-4"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.3.1</span><span class="space"> </span><span class="title">Explore</span>
+</h3>
+<article class="exploration project-like" id="derivmeaning"><h4 class="heading">
+<span class="type">Exploration</span><span class="space"> </span><span class="codenumber">1.3.1</span><span class="period">.</span>
+</h4>
+<div class="para" id="derivmeaning-1-1">List every interpretation of the derivative <span class="process-math">\(\ydot\)</span> that you can think of.</div></article><article class="exploration project-like" id="VisualizingODEs-4-3"><h4 class="heading">
+<span class="type">Exploration</span><span class="space"> </span><span class="codenumber">1.3.2</span><span class="period">.</span>
+</h4>
+<div class="para" id="VisualizingODEs-4-3-2-1">Certainly, one of your answers to <a href="" class="xref" data-knowl="./knowl/xref/derivmeaning.html" title="Exploration 1.3.1">Exploration 1.3.1</a> was that a derivative is a <em class="emphasis">slope</em>.   Use this to explain why equation <a href="" class="xref" data-knowl="./knowl/xref/eqODE1.html" title="Equation 1.3.1">(1.3.1)</a> assigns a slope to each point in the <span class="process-math">\((t,y)\)</span> plane. Explain how you might use this to draw a picture encapsulating this information (called a <dfn class="terminology">slope field</dfn>) for a given function <span class="process-math">\(f(y,x).\)</span>
+</div></article><article class="exploration project-like" id="VisualizingODEs-4-4"><h4 class="heading">
+<span class="type">Exploration</span><span class="space"> </span><span class="codenumber">1.3.3</span><span class="period">.</span>
+</h4>
+<div class="para" id="VisualizingODEs-4-4-1-1">Sketch slope fields for <span class="process-math">\(\ydot = y\)</span> for <span class="process-math">\(-2 \leq t \leq 2, \, -2 \leq y \leq 2.\)</span>
+</div></article><article class="exploration project-like" id="VisualizingODEs-4-5"><h4 class="heading">
+<span class="type">Exploration</span><span class="space"> </span><span class="codenumber">1.3.4</span><span class="period">.</span>
+</h4>
+<div class="para" id="VisualizingODEs-4-5-1-1">Sketch slope fields for <span class="process-math">\(\ydot = t\)</span> for <span class="process-math">\(-2 \leq t \leq 2, \, -2 \leq y \leq 2.\)</span>
+</div></article><article class="exploration project-like" id="slopefield_matching_equations"><h4 class="heading">
+<span class="type">Exploration</span><span class="space"> </span><span class="codenumber">1.3.5</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="slopefield_matching_equations-1-1">
+<div class="para">Match the following slope fields in <a href="" class="xref" data-knowl="./knowl/xref/slopefield_matching1.html" title="Figure 1.3.1">Figure 1.3.1</a> to the corresponding differential equation.</div>
+<ol class="decimal">
+<li id="slopefield_matching_equations-1-1-2-1"><div class="para" id="p-derived-slopefield_matching_equations-1-1-2-1"><span class="process-math">\(\displaystyle \ydot = t y\)</span></div></li>
+<li id="slopefield_matching_equations-1-1-2-2"><div class="para" id="p-derived-slopefield_matching_equations-1-1-2-2"><span class="process-math">\(\displaystyle \ydot = y(1-y)\)</span></div></li>
+<li id="slopefield_matching_equations-1-1-2-3"><div class="para" id="p-derived-slopefield_matching_equations-1-1-2-3"><span class="process-math">\(\displaystyle \ydot = 1-y^2\)</span></div></li>
+<li id="slopefield_matching_equations-1-1-2-4"><div class="para" id="p-derived-slopefield_matching_equations-1-1-2-4"><span class="process-math">\(\displaystyle \ydot = \sin(t) y\)</span></div></li>
+</ol>
+</div></article><figure class="figure figure-like" id="slopefield_matching1"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/images/slopefield_matching1.png" class="contained"></div>4 slope fields, to be matched with the differential equations in <a href="" class="xref" data-knowl="./knowl/xref/slopefield_matching_equations.html" title="Exploration 1.3.5">Exploration 1.3.5</a>.<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.3.1<span class="period">.</span></span><span class="space"> </span></figcaption></figure></section><section class="subsection" id="VisualizingODEs-5"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.3.2</span><span class="space"> </span><span class="title">Conjecture</span>
+</h3></section><section class="subsection" id="VisualizingODEs-6"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.3.3</span><span class="space"> </span><span class="title">Apply</span>
+</h3></section><section class="subsection" id="VisualizingODEs-7"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.3.4</span><span class="space"> </span><span class="title">Prove</span>
+</h3></section></section></div>
 <div class="ptx-content-footer">
-<span class="previous-button button disabled"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></span><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="frontmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+<a class="previous-button button" href="TerminologyODEs.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="backmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">
