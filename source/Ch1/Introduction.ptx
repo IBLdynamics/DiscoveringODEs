@@ -1,22 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
 <chapter xml:id="Introduction" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>What is an Ordinary Differential Equation?</title>
-  <introduction>
-    <p> We're all familiar with the idea of an algebraic equation. Something like <m>2x+1 = 5</m> or <m>
-      ax^2 + bx + c = 0</m>. A solution to an algebraic equation is a number, or collection of
-      numbers, that make the statement true. </p>
-    <p> So what if we have an equation like this? <md>
-        <mrow>
-          f(x)\frac{d^2y}{dx^2} + g(x)\frac{dy}{dx} + h(x) =
-          c?
-        </mrow>
-      </md>
-      It's still an equation, so we're still interested in what makes it true. However, the
-      assumption has changed. We don't need a numerical value to make this true, we need some
-      differentiable function <m>y(x)</m>. Conceptually, there isn't a difference, just
-      procedurally. We're still trying to find a way to make a statement containing unknown values
-      true. </p>
+	<title>What is a Differential Equation?</title>
+	<introduction>
+		<p>
+			Differential equations are foundational in modeling many real-world phenomena from biology through economics to physics.
+			While statistical analyses help elucidate numerical patterns and trends, differential equations often provide a way of describing underlying physical properties and laws that govern the process being observed.
+			They are the bridge between the observations and the foundational concepts.
+		</p>
+    </introduction>
 
-  </introduction>
-  <xi:include href="S11.ptx" />
-  <xi:include href="S12.ptx" />
+    <section xml:id="WhyODEs">
+      <title>Why Study Differential Equations?</title>
+    <p>
+    Why are differential equations so good at describing the natural world?  First and foremost, differential equations are a great tool because the derivative, the building block of a differential equation, describes {\it a rate of change.}  Oftentimes, it is easier to measure (or model) how a quantity changes over time than it is to measure (or model) the actual quantity itself.  Sometimes the rate of change of this quantity depends only on time.  Sometimes the rate of change of this quantity depends only on the quantity itself.  And sometimes the rate of change depends on both.  Regardless, this ability to describe the rate of change of something allows us to write a differential equation.  And as we shall see, solving this differential equation provides a direct description of the quantity itself.</p>
+
+<p>There is a second, but equally important, reason that differential equations are useful in describing the natural world.  And that is that <em>force equals mass times acceleration</em> or
+<me> F = ma.</me>
+As you know, acceleration is a rate of change!  It is the rate of change of velocity with respect to time or equivalently, it is the second derivative of position with respect to time.  And thus the second way that differential equations arise are in describing physical phenomena involving forces.  Like before, it is often relatively straightforward to write a differential equation based on forces.  And solving this differential equation gives a description of motion, something that would have been impossible without starting with the underlying forces and the associated differential equation. </p>
+
+<p> Our goal in this book is for you to explore differential equations from  a modeling perspective and then apply various solution methods to describe a wide range of real-world applications.  This textbook is not a cookbook with different recipes to solve different classes of differential equations (though there is some of that).  We hope that you are actively engaged in the whole process; from setting up a differential equations model, through using calculus and other techniques to solve them, to interpreting the solution to better understand the behavior of the system being modeled.</p>
+
+<p> Let's get started.</p>
+</section>
+		<xi:include href="S12.ptx" />
+	<xi:include href="S13.ptx" />
 </chapter>

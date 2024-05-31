@@ -19,7 +19,7 @@
     <frontmatter xml:id="frontmatter">
       <titlepage>
         <author>
-          <personname>Tom LoFaro</personname>
+          <personname>Thomas LoFaro</personname>
           <department>Mathematics, Computer Science, and Statistics</department>
           <institution>Gustvus Adolphus College</institution>
         </author>
@@ -38,14 +38,14 @@
 
         <website>
           <name>
-            <c>example.org</c>
+            <c>ibldynamics.com</c>
           </name>
-          <address>https://example.org</address>
+          <address>https://ibldynamics.com</address>
         </website>
 
         <copyright>
           <year>2020<ndash />2023</year>
-          <holder>You</holder>
+          <holder>Thomas LoFaro and Jeff Ford</holder>
           <shortlicense> This work is licensed under the Creative Commons Attribution-ShareAlike 4.0
             International License. To view a copy of this license, visit <url
               href="http://creativecommons.org/licenses/by-sa/4.0/"
@@ -56,14 +56,14 @@
     </frontmatter>
 
     <xi:include href="Ch1/Introduction.ptx" />
-    <xi:include href="Ch2/Ch2.ptx" />
+    <!-- <xi:include href="Ch2/Ch2.ptx" />
     <xi:include href="Ch3/Ch3.ptx" />
     <xi:include href="Ch4/Ch4.ptx" />
     <xi:include href="Ch5/Ch5.ptx" />
     <xi:include href="Ch6/Ch6.ptx" />
-    <xi:include href="Ch7/Ch7.ptx" />
+    <xi:include href="Ch7/Ch7.ptx" />-->
 
-    <backmatter xml:id="backmatter">
+    <backmatter xml:id="backmatter"> 
       <title>Backmatter</title>
 
       <colophon>

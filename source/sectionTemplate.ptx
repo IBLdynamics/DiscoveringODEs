@@ -1,0 +1,31 @@
+<section xml:id="TerminologyODEs">
+  <title>The Terminology of Differential Equations</title>
+  <introduction>
+    Whatever
+  </introduction>
+  <figure>
+    <caption>Exploring a slope field</caption>
+    <idx>Exploring a slope field</idx>
+
+    <interactive xml:id="interactive-slope_field" platform="jsxgraph" width="80%"
+      aspect="4:3" source="/jslibrary/Slopefield.js">
+      <slate xml:id="jsxgraph-slope_field" surface="jsxboard" aspect="4:3" />
+      <instructions>
+        <p>Drag the initial condition to watch the arrow move in relation to the slope field.</p>
+      </instructions>
+    </interactive>
+  </figure>
+
+  <subsection>
+    <title>Explore</title>
+  </subsection>
+  <subsection>
+    <title>Conjecture</title>
+  </subsection>
+  <subsection>
+    <title>Apply</title>
+  </subsection>
+  <subsection>
+    <title>Prove</title>
+  </subsection>
+</section>
