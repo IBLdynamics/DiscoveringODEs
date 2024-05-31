@@ -6,10 +6,17 @@
     <rename element="algorithm">Application</rename>
     <rename element="fact">Proof</rename>
     <macros>
-      \newcommand{\R}{\mathbb R}
+      \newcommand{\xdot}{\dot{x}}
+\newcommand{\ydot}{\dot{y}}
+\newcommand{\zdot}{\dot{z}}
+
+\newcommand{\xddot}{\ddot{x}}
+\newcommand{\yddot}{\ddot{y}}
+\newcommand{\zddot}{\ddot{z}}
     </macros>
     <latex-image-preamble>
       \usepackage{tikz}
+      
     </latex-image-preamble>
   </docinfo>
 
@@ -65,7 +72,10 @@
 
     <backmatter xml:id="backmatter"> 
       <title>Backmatter</title>
-
+      <index>
+        <title>Index</title>
+        <index-list />
+        </index>
       <colophon>
         <p> This book was authored in <pretext />. </p>
       </colophon>

@@ -5,9 +5,9 @@
   </introduction>
  
 
-  <subsection>
+  <subsection xml:id="def-ODE">
     <title>Explore</title>
-    <p> A differential equation is simply an equation that describes a relationship between some function and its derivatives.  We will often use the variable <m>y</m> to denote the function (or dependent variable), the variable <m>t</m> to denote the input (or independent variable), and primes to denote derivatives.  Here are a few examples to give you the idea.
+    <p> A <term >differential equation</term><idx>differential equation</idx> is simply an equation that describes a relationship between some function and its derivatives.  We will often use the variable <m>y</m> to denote the function (or dependent variable), the variable <m>t</m> to denote the input (or independent variable), and primes to denote derivatives.  Here are a few examples to give you the idea.
 <ol>
 <li><m> y' = a y (1-y)</m> </li>
   <li><m> y' = -9.8 t + 12</m> </li>
@@ -23,6 +23,20 @@
     <li> solving differential equations (when possible).</li>
 </ul>
 </p>
+<p> Differential equations come in many flavors and like at an ice cream shop, there is a special vocabulary for understanding all of the different ingredients and styles.  It is worth a few minutes to put together a brief glossary of some of the terms and notations that we will be using frequently.  This list will get longer and it will be very helpful to become fluent with all of the different terms and definitions.</p>
+<p> Let's begin with the functions described by a differential equation.  Typically the variables <m>x</m> or <m>y</m> are used to denote the function.  Hidden in this notation is that <m>x</m> or <m>y</m> depend on some other independent variable.  We will generally use <m>t</m> to denote the independent variable.  In other words, when we write <m>y</m> we really mean <m>y</m> is a function of <m>t</m> which we might also write as <m>y(t).</m></p>
+
+<p>As is standard, we use a prime (') to denote a derivative.  In other words <m>y' = dy/dt.</m>  It is also common to use a dot to denote derivatives when the independent variable is time (<m>t</m>) so instead of writing <m>y'</m> you may see <m>\ydot</m> used.  This latter notation is the one that we will use most frequently.  And this brings us to our first entry in the glossary.</p>
+
+<definition xml:id="def-orderODE"><idx><h>differential equation</h><h>order of</h></idx>
+  <statement>
+    <p>
+      The <term>order</term> of a differential equation is the degree of the highest derivative in the equation.
+    </p>
+  </statement>
+</definition>
+
+
   </subsection>
  <!-- <subsection>
     <title>Conjecture</title>
