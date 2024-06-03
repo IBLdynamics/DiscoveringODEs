@@ -106,7 +106,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.3",
   "title": "Visualizing Ordinary Differential Equations",
-  "body": " Visualizing Ordinary Differential Equations   The place to start studying ordinary differential equations is to develop a way to visualize the equation. This process isn't new to you, before you learned doing algebra, you learned how to visualize graphs. Before you stared doing derivatives, you learned how to visualize tangent lines. The same process is important here. This section will help you visualize first-order differential equations partly because it helps you understand what comes later. But we also hope that you will see that using these methods are useful in their own right and much understanding and interpretation can be gained using some pretty basic ideas.   The techniques you will explore here apply to differential equations of the form where the function is assumed to be differentiable in both and . Note that if the differential equation is autonomous then    Explore    List every interpretation of the derivative that you can think of.    slope field   Certainly, one of your answers to was that a derivative is a slope . Use this to explain why equation assigns a slope to each point in the plane. Explain how you might use this to draw a picture encapsulating this information (called a slope field ) for a given function       Sketch slope fields for for       Sketch slope fields for for       Match the following slope fields in to the corresponding differential equation.            4 slope fields, to be matched with the differential equations in .     Conjecture    Apply    Prove   "
+  "body": " Visualizing Ordinary Differential Equations   The place to start studying ordinary differential equations is to develop a way to visualize the equation. This process isn't new to you, before you learned doing algebra, you learned how to visualize graphs. Before you stared doing derivatives, you learned how to visualize tangent lines. The same process is important here. This section will help you visualize first-order differential equations partly because it helps you understand what comes later. But we also hope that you will see that using these methods are useful in their own right and much understanding and interpretation can be gained using some pretty basic ideas.   The techniques you will explore here apply to differential equations of the form where the function is assumed to be differentiable in both and . Note that if the differential equation is autonomous then    Explore    List every interpretation of the derivative that you can think of.    slope field   Certainly, one of your answers to was that a derivative is a slope . Use this to explain why equation assigns a slope to each point in the plane. Explain how you might use this to draw a picture encapsulating this information (called a slope field ) for a given function       Sketch slope fields for for       Sketch slope fields for for       Match the following slope fields in to the corresponding differential equation.           Matching slope fields  Matching slope fields      Conjecture    Apply    Prove   "
 },
 {
   "id": "derivmeaning",
@@ -154,13 +154,13 @@ var ptx_lunr_docs = [
   "body": "  Match the following slope fields in to the corresponding differential equation.         "
 },
 {
-  "id": "slopefield_matching1",
+  "id": "slope_field_matching_fig",
   "level": "2",
-  "url": "VisualizingODEs.html#slopefield_matching1",
+  "url": "VisualizingODEs.html#slope_field_matching_fig",
   "type": "Figure",
   "number": "1.3.1",
   "title": "",
-  "body": "  4 slope fields, to be matched with the differential equations in .  "
+  "body": " Matching slope fields  Matching slope fields   "
 },
 {
   "id": "backmatter-2",
