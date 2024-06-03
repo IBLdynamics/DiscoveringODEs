@@ -50,7 +50,7 @@ where the function <m>f</m> is assumed to be differentiable in both <m>y</m>  an
     <exploration xml:id="slopefield_matching_equations">
       <statement>
         <p>
-          Match the following slope fields in <xref ref="slopefield_matching1"/> to the corresponding differential equation. 
+          Match the following slope fields in <xref ref="slope_field_matching_fig"/> to the corresponding differential equation. 
           
 <ol>
 <li><m>\ydot = t y</m></li>
@@ -62,10 +62,22 @@ where the function <m>f</m> is assumed to be differentiable in both <m>y</m>  an
           </p>
           </statement>
           </exploration>
-          <figure xml:id="slopefield_matching1">
-            <image source="images/slopefield_matching1.png" width="50%"/>
-            <shortdescription> 4 slope fields, to be matched with the differential equations in <xref ref="slopefield_matching_equations"/>. </shortdescription>
-            </figure>
+
+          <figure xml:id="slope_field_matching_fig">
+            <caption>Matching slope fields</caption>
+            <idx>Matching slope fields</idx>
+        
+            <interactive xml:id="JSX_slope_field_matching" platform="jsxgraph" width="80%"
+              aspect="4:3" source="/jslibrary/Explore135.js">
+              <slate xml:id="slope_field_matching" surface="jsxboard" aspect="4:3" />
+              <instructions>
+                <p>Click on the lettered buttons to change the ODE that generates the slope field. Match each field with an ODE from <xref ref="slopefield_matching_equations"/></p>
+              </instructions>
+              <static>
+                <image source="images/slopefield_matching1.png" width="60%"/>
+                </static>
+            </interactive>
+          </figure>
   </subsection>
   <subsection>
     <title>Conjecture</title>
