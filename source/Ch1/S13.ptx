@@ -97,9 +97,9 @@ where the function <m>f</m> is assumed to be differentiable in both <m>y</m>  an
             <caption>Matching slope fields</caption>
             <idx>Matching slope fields</idx>
         
-            <interactive xml:id="JSX_slope_field_matching" platform="jsxgraph" width="80%"
-              aspect="4:3" source="/jslibrary/Explore135.js">
-              <slate xml:id="slope_field_matching" surface="jsxboard" aspect="4:3" />
+            <interactive xml:id="JSX_drag_initial_condition" platform="jsxgraph" width="80%"
+              aspect="4:3" source="/jslibrary/App132.js">
+              <slate xml:id="drag_initial_condition" surface="jsxboard" aspect="4:3" />
               <instructions>
                 <p>Click on the lettered buttons to change the ODE that generates the slope field. Match each field with an ODE from <xref ref="slopefield_matching_equations"/></p>
               </instructions>
