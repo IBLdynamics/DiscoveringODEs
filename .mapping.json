@@ -1,1 +1,1 @@
-{"source/main.ptx": ["DODE", "frontmatter", "backmatter"], "source/Ch1/Introduction.ptx": ["Introduction", "WhyODEs"], "source/Ch1/S12.ptx": ["TerminologyODEs"], "source/Ch1/S13.ptx": ["VisualizingODEs", "JSX_slope_field_matching", "slope_field_matching"]}
+{"source/main.ptx": ["DODE", "frontmatter", "backmatter"], "source/Ch1/Introduction.ptx": ["Introduction", "WhyODEs"], "source/Ch1/S12.ptx": ["TerminologyODEs"], "source/Ch1/S13.ptx": ["VisualizingODEs", "JSX_slope_field_matching", "JSX_drag_initial_condition", "JSX_drag_init_pop"]}

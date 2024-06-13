@@ -106,7 +106,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.3",
   "title": "Visualizing Ordinary Differential Equations",
-  "body": " Visualizing Ordinary Differential Equations   The place to start studying ordinary differential equations is to develop a way to visualize the equation. This process isn't new to you, before you learned doing algebra, you learned how to visualize graphs. Before you stared doing derivatives, you learned how to visualize tangent lines. The same process is important here. This section will help you visualize first-order differential equations partly because it helps you understand what comes later. But we also hope that you will see that using these methods are useful in their own right and much understanding and interpretation can be gained using some pretty basic ideas.   The techniques you will explore here apply to differential equations of the form where the function is assumed to be differentiable in both and . Note that if the differential equation is autonomous then    Explore    List every interpretation of the derivative that you can think of.    slope field   Certainly, one of your answers to was that a derivative is a slope . Use this to explain why equation assigns a slope to each point in the plane. Explain how you might use this to draw a picture encapsulating this information (called a slope field ) for a given function       Sketch slope fields for for       Sketch slope fields for for       Match the following slope fields in to the corresponding differential equation.           Matching slope fields  Matching slope fields      Conjecture    Apply    Prove   "
+  "body": " Visualizing Ordinary Differential Equations   The place to start studying ordinary differential equations is to develop a way to visualize the equation. This process isn't new to you, before you learned doing algebra, you learned how to visualize graphs. Before you stared doing derivatives, you learned how to visualize tangent lines. The same process is important here. This section will help you visualize first-order differential equations partly because it helps you understand what comes later. But we also hope that you will see that using these methods are useful in their own right and much understanding and interpretation can be gained using some pretty basic ideas.   The techniques you will explore here apply to differential equations of the form where the function is assumed to be differentiable in both and . Note that if the differential equation is autonomous then    Explore    List every interpretation of the derivative that you can think of.    slope field   Certainly, one of your answers to was that a derivative is a slope . Use this to explain why equation assigns a slope to each point in the plane. Explain how you might use this to draw a picture encapsulating this information (called a slope field ) for a given function       Sketch slope fields for for       Sketch slope fields for for       Match the following slope fields in to the corresponding differential equation.           Matching slope fields  Matching slope fields      The vector field in from a differential equation that models how the temperature of an object changes over time in relationship to a fixed environmental temperature. For this figure, the environmental temperature is assumed to be F. > Drag the solution curve to an initial condition of F.  Drag the solution curve to an initial condition of F.  Drag the solution curve to an initial condition of F.  What general conclusions can you make about the temperature change of the object?       Sketching solutions for temperature changes      The vector field in comes from a differential equation model of population change over time. The vertical axis is the population percentage relative to some maximum sustainable population (e.g. a carrying capacity). > Sketch a solution where the initial population size is 0.  Sketch a solution where the initial population size is at the carrying capacity.  Sketch a solution where the initial population is one-half of the carrying capacity.  What general conclusions can you make about the population dynamics in this model?       Sketching solutions for population growth      Conjecture  Autonomous differential equations of the form are especially important. They arise in modeling because it is often the case that the rate of change of some variable ( ) depends on the size of that variable ( ) but not on time ( ). Here is a simple example that you are probably familiar with: the rate of growth of a population is proportional to population size. If is population size then this gives the differential equation with the constant of proportionality. The following exercises point to a few important properties of slope fields of autonomous differential equations defined by equation .    What is the relationship between the slopes assigned to the points and ? In general, what is true about the slopes assigned to points on a horizontal line ?      Suppose that What can you say about the slopes assigned to points on a horizontal line ?      Suppose that and What can you say about the slopes assigned to points slightly above the horizontal line ? What can you say about the slopes assigned to points slightly below the horizontal line ?      Suppose that and What can you say about the slopes assigned to points slightly above the horizontal line ? What can you say about the slopes assigned to points slightly below the horizontal line ?      Apply  As mentioned briefly above, differential equations can be used to mathematically model many real-world phenomenon because it is often convenient to describe the rate of change of a quantity in terms of the quantity itself. The following exercises illustrate some typical problems. It is typical that a constant (such as a constant of proportionality) will be required. You should use a letter (like above) for this and specify the sign of the constant where appropriate. You should not assign a value to this constant unless additional information is provided that allows you to do so.      Radioactive decay: The rate of decay of a radioactive isotope is proportional to the mass of the isotope present. Write a differential equation to describe radioactive decay. Sketch the slope field.       Newton's Law of Cooling: The rate of change of temperature of an object is proportional to the temperature difference between the object and the environmental temperature . Write a differential equation for Newton's Law of Cooling. Sketch the slope field.    The net rate of change of a quantity is sometimes described by rate in - rate out . In populations this might be birth rate - death rate for example. Use this idea below.     Births and Deaths: The birth rate of a certain population is proportional to population size and the death rate is constant regardless of population size. Write a differential equation describing this population change. Sketch the slope field.       Mixing: Let denote the number of grams of red dye and time measured in seconds. Suppose that a mixture having a concentration of 2 grams per liter is pumped into a 5 liter container at a rate of 0.1 liters per second. The well-stirred mixture is pumped out at the same rate of 0.1 liters per second. Write a differential equation that describes the rate of change of with respect to . Sketch the slope field.   Hint: What are the units of ? The right hand side of this differential equation needs to have the exact same units!      This question concerns a property of solutions to autonomous differential equations. It will be helpful to review your responses to conjectures - in answering this question. Do you think that a solution to an autonomous differential equation can have a local maximum or local minimum? Why or why not?     "
 },
 {
   "id": "derivmeaning",
@@ -161,6 +161,123 @@ var ptx_lunr_docs = [
   "number": "1.3.1",
   "title": "",
   "body": " Matching slope fields  Matching slope fields   "
+},
+{
+  "id": "VisualizingODEs-4-8",
+  "level": "2",
+  "url": "VisualizingODEs.html#VisualizingODEs-4-8",
+  "type": "Application",
+  "number": "1.3.2",
+  "title": "",
+  "body": "  The vector field in from a differential equation that models how the temperature of an object changes over time in relationship to a fixed environmental temperature. For this figure, the environmental temperature is assumed to be F. > Drag the solution curve to an initial condition of F.  Drag the solution curve to an initial condition of F.  Drag the solution curve to an initial condition of F.  What general conclusions can you make about the temperature change of the object?     "
+},
+{
+  "id": "slope_field_drag_init",
+  "level": "2",
+  "url": "VisualizingODEs.html#slope_field_drag_init",
+  "type": "Figure",
+  "number": "1.3.3",
+  "title": "",
+  "body": " Sketching solutions for temperature changes   "
+},
+{
+  "id": "VisualizingODEs-4-10",
+  "level": "2",
+  "url": "VisualizingODEs.html#VisualizingODEs-4-10",
+  "type": "Application",
+  "number": "1.3.4",
+  "title": "",
+  "body": "  The vector field in comes from a differential equation model of population change over time. The vertical axis is the population percentage relative to some maximum sustainable population (e.g. a carrying capacity). > Sketch a solution where the initial population size is 0.  Sketch a solution where the initial population size is at the carrying capacity.  Sketch a solution where the initial population is one-half of the carrying capacity.  What general conclusions can you make about the population dynamics in this model?     "
+},
+{
+  "id": "slope_field_drag_init_pop",
+  "level": "2",
+  "url": "VisualizingODEs.html#slope_field_drag_init_pop",
+  "type": "Figure",
+  "number": "1.3.5",
+  "title": "",
+  "body": " Sketching solutions for population growth   "
+},
+{
+  "id": "conj_autslopes1",
+  "level": "2",
+  "url": "VisualizingODEs.html#conj_autslopes1",
+  "type": "Conjecture",
+  "number": "1.3.6",
+  "title": "",
+  "body": "  What is the relationship between the slopes assigned to the points and ? In general, what is true about the slopes assigned to points on a horizontal line ?   "
+},
+{
+  "id": "conj_autslopes2",
+  "level": "2",
+  "url": "VisualizingODEs.html#conj_autslopes2",
+  "type": "Conjecture",
+  "number": "1.3.7",
+  "title": "",
+  "body": "  Suppose that What can you say about the slopes assigned to points on a horizontal line ?   "
+},
+{
+  "id": "conj_autslopes3",
+  "level": "2",
+  "url": "VisualizingODEs.html#conj_autslopes3",
+  "type": "Conjecture",
+  "number": "1.3.8",
+  "title": "",
+  "body": "  Suppose that and What can you say about the slopes assigned to points slightly above the horizontal line ? What can you say about the slopes assigned to points slightly below the horizontal line ?   "
+},
+{
+  "id": "conj_autslopes4",
+  "level": "2",
+  "url": "VisualizingODEs.html#conj_autslopes4",
+  "type": "Conjecture",
+  "number": "1.3.9",
+  "title": "",
+  "body": "  Suppose that and What can you say about the slopes assigned to points slightly above the horizontal line ? What can you say about the slopes assigned to points slightly below the horizontal line ?   "
+},
+{
+  "id": "app_rad_decay",
+  "level": "2",
+  "url": "VisualizingODEs.html#app_rad_decay",
+  "type": "Application",
+  "number": "1.3.10",
+  "title": "",
+  "body": "   Radioactive decay: The rate of decay of a radioactive isotope is proportional to the mass of the isotope present. Write a differential equation to describe radioactive decay. Sketch the slope field.   "
+},
+{
+  "id": "app_nlc",
+  "level": "2",
+  "url": "VisualizingODEs.html#app_nlc",
+  "type": "Application",
+  "number": "1.3.11",
+  "title": "",
+  "body": "   Newton's Law of Cooling: The rate of change of temperature of an object is proportional to the temperature difference between the object and the environmental temperature . Write a differential equation for Newton's Law of Cooling. Sketch the slope field.   "
+},
+{
+  "id": "app_birth_death",
+  "level": "2",
+  "url": "VisualizingODEs.html#app_birth_death",
+  "type": "Application",
+  "number": "1.3.12",
+  "title": "",
+  "body": "   Births and Deaths: The birth rate of a certain population is proportional to population size and the death rate is constant regardless of population size. Write a differential equation describing this population change. Sketch the slope field.   "
+},
+{
+  "id": "app_mixing",
+  "level": "2",
+  "url": "VisualizingODEs.html#app_mixing",
+  "type": "Application",
+  "number": "1.3.13",
+  "title": "",
+  "body": "   Mixing: Let denote the number of grams of red dye and time measured in seconds. Suppose that a mixture having a concentration of 2 grams per liter is pumped into a 5 liter container at a rate of 0.1 liters per second. The well-stirred mixture is pumped out at the same rate of 0.1 liters per second. Write a differential equation that describes the rate of change of with respect to . Sketch the slope field.   Hint: What are the units of ? The right hand side of this differential equation needs to have the exact same units!   "
+},
+{
+  "id": "VisualizingODEs-12",
+  "level": "2",
+  "url": "VisualizingODEs.html#VisualizingODEs-12",
+  "type": "Application",
+  "number": "1.3.14",
+  "title": "",
+  "body": "  This question concerns a property of solutions to autonomous differential equations. It will be helpful to review your responses to conjectures - in answering this question. Do you think that a solution to an autonomous differential equation can have a local maximum or local minimum? Why or why not?   "
 },
 {
   "id": "backmatter-2",
