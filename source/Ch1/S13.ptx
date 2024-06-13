@@ -82,7 +82,36 @@ where the function <m>f</m> is assumed to be differentiable in both <m>y</m>  an
           <algorithm>
             <statement>
               <p>
-                The vector field in  <xref ref="slope_field_temp"/> comes from a differential equation model of population change over time.  The vertical axis is the population percentage relative to some maximum sustainable population (e.g. a carrying capacity).
+                The vector field in  <xref ref="slope_field_drag_init"/> from a differential equation that models how the temperature of an object changes over time in relationship to a fixed environmental temperature.  For this figure, the environmental temperature is assumed to be <m>70^{\circ}</m> F.
+
+                <ol>>
+                    <li> Drag the solution curve to an initial condition of <m>70^{\circ}</m> F.</li>
+                      <li> Drag the solution curve to an initial condition of <m>90^{\circ}</m> F.</li>
+                        <li> Drag the solution curve to an initial condition of <m>50^{\circ}</m> F.</li>
+                          <li> What general conclusions can you make about the temperature change of the object?</li>
+                </ol>
+              </p>
+            </statement>
+          </algorithm>
+          <figure xml:id="slope_field_drag_init">
+            <caption>Sketching solutions for temperature changes</caption>
+        
+            <interactive xml:id="JSX_drag_initial_condition" platform="jsxgraph" width="80%"
+              aspect="4:3" source="/jslibrary/App132.js">
+              <slate xml:id="drag_initial_condition" surface="jsxboard" aspect="4:3" />
+              <instructions>
+                <p>Drag the red dot to draw a solution to the ODE through the initial condition at the red dot.</p>
+              </instructions>
+              <static>
+                <image source="images/NLC-vf.png" width="60%"/>
+                </static>
+            </interactive>
+          </figure>
+
+          <algorithm>
+            <statement>
+              <p>
+                The vector field in  <xref ref="slope_field_drag_init_pop"/> comes from a differential equation model of population change over time.  The vertical axis is the population percentage relative to some maximum sustainable population (e.g. a carrying capacity).
 
                 <ol>>
                     <li> Sketch a solution where the initial population size is 0.</li>
@@ -93,29 +122,123 @@ where the function <m>f</m> is assumed to be differentiable in both <m>y</m>  an
               </p>
             </statement>
           </algorithm>
-          <figure xml:id="slope_field_temp">
-            <caption>Matching slope fields</caption>
-            <idx>Matching slope fields</idx>
+          <figure xml:id="slope_field_drag_init_pop">
+            <caption>Sketching solutions for population growth</caption>
         
-            <interactive xml:id="JSX_drag_initial_condition" platform="jsxgraph" width="80%"
-              aspect="4:3" source="/jslibrary/App132.js">
-              <slate xml:id="drag_initial_condition" surface="jsxboard" aspect="4:3" />
+            <interactive xml:id="JSX_drag_init_pop" platform="jsxgraph" width="80%"
+              aspect="4:3" source="/jslibrary/APP133.js">
+              <slate xml:id="drag_initial_pop" surface="jsxboard" aspect="4:3" />
               <instructions>
-                <p>Click on the lettered buttons to change the ODE that generates the slope field. Match each field with an ODE from <xref ref="slopefield_matching_equations"/></p>
+                <p>Drag the red dot to draw a solution to the ODE through the initial condition at the red dot.</p>
               </instructions>
               <static>
-                <image source="images/slopefield_matching1.png" width="60%"/>
+                <image source="images/logistic-vf.png" width="60%"/>
                 </static>
             </interactive>
           </figure>
+
   </subsection>
   <subsection>
     <title>Conjecture</title>
+   <p> Autonomous differential equations of the form 
+<men xml:id="autODE"> 
+\ydot = f(y) </men>
+
+are especially important.  They arise in modeling because it is often the case that the rate of change of some variable (<m>\ydot</m>) depends on the size of that variable (<m>y</m>) but not on time (<m>t</m>).  Here is a simple example that you are probably familiar with:  the rate of growth of a population is proportional to population size.  If <m>y</m> is population size then this gives the differential equation
+<m> \ydot = ky </m>
+with <m>k>0</m> the constant of proportionality.
+
+The following exercises point to a few important properties of slope fields of autonomous differential equations defined by equation <xref ref="autODE"/>.
+</p>
+<conjecture xml:id="conj_autslopes1">
+  <statement>
+    <p>
+      What is the relationship between the slopes assigned to the points <m>(t_0, y_0)</m> and <m>(t_1,y_0)</m>?  In general, what is true about the slopes assigned to points on a horizontal line <m>y=y_0</m>?
+    </p>
+  </statement>
+
+</conjecture>
+
+<conjecture xml:id="conj_autslopes2"> 
+  <statement>
+    <p>
+Suppose that <m>f(y_0)=0.</m>  What can you say about the slopes assigned to points on a horizontal line <m>y=y_0</m>?
+</p>
+</statement>
+
+</conjecture>
+
+<conjecture xml:id="conj_autslopes3">
+  <statement>
+    <p>
+Suppose that <m>f(y_0)=0</m> and <m>f'(y_0)>0.</m>  What can you say about the slopes assigned to points slightly above the horizontal line <m>y=y_0</m>?  What can you say about the slopes assigned to points slightly below the horizontal line <m>y=y_0</m>?
+</p>
+</statement>
+
+</conjecture>
+
+<conjecture xml:id="conj_autslopes4">
+  <statement>
+    <p>
+Suppose that <m>f(y_0)=0</m> and <m>f'(y_0)\lt 0.</m>  What can you say about the slopes assigned to points slightly above the horizontal line <m>y=y_0</m>?  What can you say about the slopes assigned to points slightly below the horizontal line <m>y=y_0</m>?
+</p>
+
+</statement>
+
+</conjecture>
+
   </subsection>
   <subsection>
     <title>Apply</title>
+    <p> As mentioned briefly above, differential equations can be used to mathematically model many real-world phenomenon because it is often convenient to describe the rate of change of a quantity in terms of the quantity itself.  The following exercises illustrate some typical problems.  It is typical that a constant (such as a constant of proportionality) will be required.  You should use a letter (like <m>k</m> above) for this and specify the sign of the constant where appropriate.  You should <em> not</em> assign a value to this constant unless additional information is provided that allows you to do so.</p>
   </subsection>
-  <subsection>
+
+  <algorithm xml:id="app_rad_decay">
+    <statement>
+      <p>
+        <term>Radioactive decay:</term> The rate of decay of a radioactive isotope is proportional to the mass of the isotope present.  Write a differential equation to describe radioactive decay.  Sketch the slope field.
+      </p>
+    </statement>
+  </algorithm>
+
+  <algorithm xml:id="app_nlc">
+    <statement>
+      <p>
+        <term>Newton's Law of Cooling:</term>  The rate of change of temperature of an object is proportional to the temperature difference between the object and the environmental temperature <m>T_0</m>.  Write a differential equation for Newton's Law of Cooling.  Sketch the slope field.
+      </p>
+    </statement>
+  </algorithm>
+  <p>
+    The net rate of change of a quantity is sometimes described by <em> rate in - rate out</em>.  In populations this might be <em> birth rate - death rate</em> for example.  Use this idea below.
+  </p>
+
+  <algorithm xml:id="app_birth_death">
+    <statement>
+      <p>
+        <term>Births and Deaths:</term> The birth rate of a certain population is proportional to population size and the death rate is constant regardless of population size.  Write a differential equation describing this population change.  Sketch the slope field.
+      </p>
+    </statement>
+  </algorithm>
+
+  <algorithm xml:id="app_mixing">
+    <statement>
+      <p>
+        <term> Mixing:</term>  Let <m>y</m> denote the number of grams of red dye and <m>t</m> time measured in seconds.  Suppose that a mixture having a concentration of 2 grams per liter is pumped into a 5 liter container at a rate of 0.1 liters per second.  The well-stirred mixture is pumped out at the same rate of 0.1 liters per second.  Write a differential equation that describes the rate of change of <m>y</m> with respect to <m>t</m>.  Sketch the slope field.
+      </p>
+      <p>
+        <alert> Hint:</alert>  What are the units of <m>\ydot</m>?  The right hand side of this differential equation needs to have the exact same units!
+      </p>
+    </statement>
+  </algorithm>
+
+  <algorithm>
+    <statement>
+      <p>
+        This question concerns a property of solutions to autonomous differential equations.  It will be helpful to review your responses to conjectures <xref ref="conj_autslopes1"/> - <xref ref="conj_autslopes4"/> in answering this question.  Do you think that a solution to an autonomous differential equation can have a local maximum or local minimum?  Why or why not?
+      </p>
+    </statement>
+  </algorithm>
+  <!-- <subsection>
     <title>Prove</title>
-  </subsection>
+  </subsection>-->
 </section>
