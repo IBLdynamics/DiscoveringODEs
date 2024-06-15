@@ -63,8 +63,8 @@
     </frontmatter>
 
     <xi:include href="Ch1/Introduction.ptx" />
-    <!-- <xi:include href="Ch2/Ch2.ptx" />
-    <xi:include href="Ch3/Ch3.ptx" />
+    <xi:include href="Ch2/Ch2.ptx" />
+    <!--<xi:include href="Ch3/Ch3.ptx" />
     <xi:include href="Ch4/Ch4.ptx" />
     <xi:include href="Ch5/Ch5.ptx" />
     <xi:include href="Ch6/Ch6.ptx" />

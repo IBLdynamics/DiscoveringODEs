@@ -1,12 +1,19 @@
-<section xml:id="GeometricDefinitions">
+<section xml:id="GeometricApproach">
   <title>A geometric approach to solutions</title>
   <introduction>
     <p>
-      Straight line, the best kind of line
+      You now know that a first-order differential equation <m>\ydot = f(y,t)</m> defines a slope field in the <m>(t,y)</m> plane.  It seems reasonable that a solution to this differential equation must be related to this slope field in some way.  In this section we focus on the geometric relationship between the slope field and solutions.
     </p>
   </introduction>
   <subsection>
     <title>Explore</title>
+    <exploration>
+      <statement>
+        <p>
+          Below are two figures showing slope fields defined by some first-order differential equation <m>\ydot = f(y,t).</m>  Clicking on the field draws a solution curve through that point.  Informally, what is the relationship between the slopes and the curves?
+        </p>
+      </statement>
+    </exploration>
   </subsection>
   <subsection>
     <title>Conjecture</title>
