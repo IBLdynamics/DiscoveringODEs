@@ -14,6 +14,30 @@
         </p>
       </statement>
     </exploration>
+    <figure xml:id="derivative_solution_relationship">
+      <caption>Relationships betweeen solution curves and slope fields</caption>
+      <interactive xml:id="JSX_derivative_solution_1" platform="jsxgraph" width="80%"
+        aspect="4:3" source="/jslibrary/Explore211_1.js">
+        <slate xml:id="derivative_solution_1" surface="jsxboard" aspect="4:3" />
+        <instructions>
+          <p>Click on slope field to generate a solution through that point.</p>
+        </instructions>
+        <static>
+          <image source="images/VFSolnsPic.png" width="60%"/>
+          </static>
+      </interactive>
+
+      <interactive xml:id="JSX_derivative_solution_2" platform="jsxgraph" width="80%"
+        aspect="4:3" source="/jslibrary/Explore211_2.js">
+        <slate xml:id="derivative_solution_2" surface="jsxboard" aspect="4:3" />
+        <instructions>
+          <p>Click on slope field to generate a solution through that point.</p>
+        </instructions>
+        <static>
+          <image source="images/VFSolnsPic.png" width="60%"/>
+          </static>
+      </interactive>
+    </figure>
   </subsection>
   <subsection>
     <title>Conjecture</title>
